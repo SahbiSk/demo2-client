@@ -1,0 +1,12 @@
+@import './main';
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+  font-family: 'Arial';
+}
+
+.MuiSnackbar-root.error .MuiPaper-root {
+  background-color: $error-color;
+}
